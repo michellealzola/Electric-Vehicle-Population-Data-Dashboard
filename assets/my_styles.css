@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Upright:wght@300;400;500;600;700&family=Sono:wght@200;300&display=swap');
+
+body
+{
+    font-family: 'Cormorant Upright', serif;
+}
+
+p
+{
+    font-family: 'Sono', sans-serif;
+}
+
+.header_container
+{
+    padding: 0;
+}
+
+.chart
+{
+    width: 100%;
+    height: 750px;
+    font-family: 'Sono', sans-serif;
+}
+
+.layout_container
+{
+    padding: 2%;
+}
