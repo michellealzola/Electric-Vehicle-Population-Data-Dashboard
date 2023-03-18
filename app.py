@@ -35,7 +35,7 @@ tab = dbc.Tabs([
     dbc.Tab([
         html.Ul([
             dcc.Graph(
-                id='ev_make',
+                id='ev_state',
                 figure=pop_per_state(),
                 className='chart'
             )
@@ -44,7 +44,7 @@ tab = dbc.Tabs([
     dbc.Tab([
         html.Ul([
             dcc.Graph(
-                id='ev_make',
+                id='ev_type',
                 figure=pop_per_type(),
                 className='chart'
             )
@@ -53,7 +53,7 @@ tab = dbc.Tabs([
     dbc.Tab([
         html.Ul([
             dcc.Graph(
-                id='ev_make',
+                id='ev_utility',
                 figure=pop_per_e_utility(),
                 className='chart'
             )
@@ -62,7 +62,7 @@ tab = dbc.Tabs([
     dbc.Tab([
         html.Ul([
             dcc.Graph(
-                id='ev_make',
+                id='ev_location',
                 figure=pop_per_location(),
                 className='chart'
             )
